@@ -1,0 +1,24 @@
+{
+  "name": "marble-api",
+  "version": "0.0.1",
+  "description": "Marblejs base api structure",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --project tsconfig.json src/index.ts",
+    "watch": "nodemon --watch src --ext ts --ignore '*.spec.ts' --exec yarn start"
+  },
+  "dependencies": {
+    "@marblejs/core": "^1.0.0-rc.1",
+    "@marblejs/middleware-body": "^1.0.0-rc.1",
+    "@marblejs/middleware-joi": "^1.0.0-rc.2",
+    "@marblejs/middleware-logger": "^1.0.0-rc.1",
+    "jsonwebtoken": "^8.3.0",
+    "rxjs": "^6.3.0",
+    "typescript": "~3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "nodemon": "^1.17.3",
+    "ts-node": "^7.0.1"
+  }
+}
