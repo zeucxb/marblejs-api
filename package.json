@@ -8,10 +8,10 @@
     "watch": "nodemon --watch src --ext ts --ignore '*.spec.ts' --exec yarn start"
   },
   "dependencies": {
-    "@marblejs/core": "^1.0.0-rc.1",
-    "@marblejs/middleware-body": "^1.0.0-rc.1",
-    "@marblejs/middleware-joi": "^1.0.0-rc.2",
-    "@marblejs/middleware-logger": "^1.0.0-rc.1",
+    "@marblejs/core": "^1.0.0",
+    "@marblejs/middleware-body": "^1.0.0",
+    "@marblejs/middleware-joi": "^1.0.0",
+    "@marblejs/middleware-logger": "^1.0.0",
     "jsonwebtoken": "^8.3.0",
     "rxjs": "^6.3.0",
     "typescript": "~3.0.1"
